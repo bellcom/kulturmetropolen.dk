@@ -79,7 +79,7 @@
             <div class="little-head">
                 <?php print render($page['header_first']); ?>
             </div>
-        </div>
+        </div>    
 
         <div class="headdown">
             <div class="row clearfix">
@@ -122,7 +122,7 @@
 
 
 
-
+   
 
     <?php if ($page['md_slider']): ?>
 		<div class="header_slider">
@@ -141,7 +141,7 @@
     <?php endif; ?>
 
 
-
+    
 
         <?php if ($breadcrumb || $page['highlighted']): ?>
             <div class="row clearfix mb">

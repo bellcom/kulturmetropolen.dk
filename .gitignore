@@ -1,4 +1,10 @@
+public_html_newest
+public_html_old
+
+sample_data.sql
 logs/
 sessions/
 tmp/
 *.sql
+.idea
+.DS_Store

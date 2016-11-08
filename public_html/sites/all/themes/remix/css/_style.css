@@ -150,12 +150,6 @@ input.form-submit:focus, #edit-cancel:focus {
   height: auto;
 }
 
-ul .menu {
-    
-    display: flex;
-    flex-direction: column;
-}
-
 div.messages a {
   color: #f52b2b;
 }
@@ -322,24 +316,6 @@ div.fivestar-widget div.on a, div.fivestar-widget div.hover a {
 
 .checkout_completion_message {
   margin: 10px 0;
-}
-
-
-.def-block, .widget, .newsletters, .block, .block-simplenews, .contextual-links-region {
-    width: 100%;
-    
-}
-
-.omega, .grid_4, .footer_w {
-    
-    padding: 0;
-    margin:0;
-}
-
-
-#block-block-7 {
-    
-    height: 772.5px;
 }
 
 .commerce-order-commerce-order table {
@@ -4361,14 +4337,23 @@ a.notification-close {
   list-style: none;
 }
 #block-menu-menu-footer .content li:before {
- 
+  content: '/';
+  color: #696969;
+  font-size: 8px;
+  position: absolute;
+  left: -1px;
+  top: 2px;
 }
 #block-menu-menu-footer .content li a.active {
   color: #f52b2b;
 }
 #block-menu-menu-footer .content .before {
-
-
+  content: '/';
+  color: #696969;
+  font-size: 8px;
+  position: absolute;
+  left: -1px;
+  top: 2px;
 }
 #block-menu-menu-footer .content li:first-child:before {
   content: '' !important;
