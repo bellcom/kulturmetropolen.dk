@@ -124,7 +124,7 @@
 
 
 
-    <?php if (!$page['md_slider']): ?>
+    <?php if ($page['md_slider']): ?>
 		<div class="header_slider">
 			<?php if (theme_get_setting('remix_disable_slide_top_panel', 'remix') == 'on'): ?>
 				<?php print render($page['md_slider']); ?>
