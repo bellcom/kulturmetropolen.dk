@@ -43,7 +43,11 @@ table {
   border-spacing: 0;
 }
 
-
+* {
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+}
 
 /* Jquery */
 .ttw-music-player .duration {

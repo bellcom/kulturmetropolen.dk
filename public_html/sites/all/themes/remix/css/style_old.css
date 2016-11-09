@@ -24,7 +24,7 @@ ol, ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote, q {p
   quotes: none;
 }
 
@@ -43,7 +43,11 @@ table {
   border-spacing: 0;
 }
 
-
+* {
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+}
 
 /* Jquery */
 .ttw-music-player .duration {
@@ -754,7 +758,7 @@ textarea {
 }
 
 .sticky {
-  position: absolute!important;
+  position: fixed !important;
   margin-top: -64px !important;
 }
 
@@ -775,15 +779,11 @@ textarea {
   border-bottom: 1px solid #0B0B0B;
   -webkit-box-shadow: 0 1px rgba(42, 42, 42, 0.75);
   box-shadow: 0 1px rgba(42, 42, 42, 0.75);
-    display: flex!important;
-    justify-content: center!important;
-    align-items: center!important;
 }
 
 .sign-btn {
   float: right;
 }
-
 
 
 
@@ -882,21 +882,10 @@ textarea {
     float: left;
     margin: 28px 0 14px;
     width: 340px;
-    position: relative;
+    position: absolute;
     top: 0;
     margin-top: -30px;
-    
 }
-
-.logo img {
-
-width: 80%!important;
-margin-bottom: -40px!important;
-margin-top: -10px;
-
-}
-
-
 
 .social-head {
   float: right;
@@ -4360,7 +4349,7 @@ a.notification-close {
 }
 
 #block-menu-menu-footer .content {
-  float: left;
+  float: right;
   padding: 0 10px;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
@@ -7243,25 +7232,6 @@ input[type="submit"] {
     display: block;
     margin: 28px auto 14px;
   }
-    
-    
-    
-    .logo, .bottomtip {
-        
-        margin-top:0!important;
-        margin-bottom: -20px!important;
-    }
-    
-    
-
-    .logo img {
-        
-        width: 80%!important;
-        margin-bottom: -30px!important;
-        padding-top: 35px!important;
-    }
-    
-    
 
   .sf-menu {
     float: none !important;
@@ -7274,7 +7244,6 @@ input[type="submit"] {
 
   .sticky {
     margin-top: -150px !important;
-
   }
 
   .ttw-music-player .player {
@@ -7527,52 +7496,6 @@ input[type="submit"] {
   .sf-menu li li:hover > a, .sf-menu li li > a:hover, .sf-menu li li > a.active {
     background: none;
   }
-
-ul .menu {
-
-	height: auto!important;
-	display: flex!important;
-	flex-direction: column!important;
-}
-
-.menu {
-
-display: flex!important;
-flex-direction: column!important;
-height: auto!important;
-
-}
-
-.view-page-news {
-
-	margin-left: -70px!important;
-}
-
-
-.footer-last p {
-
-
-color: #fff!important;
-}
-
-
-.footer-info {
-
-	color: #fff!important;
-}
-
-.block-system-main {
-
-	margin-left: -70px;
-}
-
-
-.footer-last ul {
-
-display: flex!important;
-flex-direction: column!important;
-height: auto;
-}
 
   .sticky {
     margin-top: -150px !important;
