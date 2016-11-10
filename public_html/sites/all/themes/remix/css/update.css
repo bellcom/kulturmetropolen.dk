@@ -81,6 +81,12 @@ height: 0;
 
 /**/
 
+
+.view-page-news {
+    
+    margin-left: -30px;
+}
+
 .item_small .featured_thumb {
 	float: left;
 	width: 65px;

@@ -92,7 +92,7 @@ function facebook_pull_block_view($delta = '') {
   switch ($delta) {
     case 'facebook_pull_default':
       $block = array(
-        'subject' => t('Facebook stream'),
+        'subject' => t('<h4>Facebook feed</h4><span class="liner"></span>'),
         'content' => _facebook_pull_render_block(),
       );
       break;

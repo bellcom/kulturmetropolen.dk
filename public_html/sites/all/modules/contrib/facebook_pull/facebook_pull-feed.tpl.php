@@ -19,7 +19,9 @@
         <?php echo $item->question; ?>
       <?php endif; ?>
     </span>
+    <span class="liner m-bottom"></span>
     <span class="facebook-feed-time"><?php echo t('!time ago.', array('!time' => format_interval(time() - strtotime($item->created_time)))); ?></span>
   </li>
+  <span class="liner"></span>
 <?php endforeach; ?>
 </ul>

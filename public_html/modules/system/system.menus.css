@@ -11,6 +11,8 @@ ul.menu {
   border: none;
   list-style: none;
   text-align: left; /* LTR */
+    display: flex;
+    flex-direction: column;
 }
 ul.menu li {
   margin: 0 0 0 0.5em; /* LTR */

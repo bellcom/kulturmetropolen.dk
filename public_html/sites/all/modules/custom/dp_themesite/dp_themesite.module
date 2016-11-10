@@ -50,9 +50,9 @@ function dc_header_block_content() {
     $content = '';
 
     if (user_is_logged_in()) {
-        $content .= '<a class="tbutton small" href="' . $base_url . '/user/logout" class="logout"><span>Logout</span></a>';
+        $content .= '<a class="tbutton small" href="' . $base_url . '/user/logout" class="logout"><span>Log ud</span></a>';
     } else {
-        $content .= '<a class="tbutton small" href="' . $base_url . '/user"><span>Sign Up</span></a>';
+        $content .= '<a class="tbutton small" href="' . $base_url . '/user"><span>Opret dig</span></a>';
     }
 
     return $content;
