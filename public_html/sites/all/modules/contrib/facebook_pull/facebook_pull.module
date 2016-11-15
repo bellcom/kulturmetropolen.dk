@@ -317,9 +317,10 @@ function _facebook_pull_render_block() {
   $type = variable_get('facebook_pull_object_type', '');
   $limit = variable_get('facebook_pull_limit', '');
   $options = array(
-    'limit' => $limit,
-    'locale' => $language->language,
-  );
+'limit' => $limit,
+'locale' => $language->language,
+'fields' => 'full_picture,type,message,created_time,from,link',
+);
 
   return facebook_pull_render($graph_id, $type, $app_id, $app_secret, $options);
 }

@@ -83,7 +83,7 @@
 
         <div class="headdown">
             <div class="row clearfix">
-                <div class="logo bottomtip" title="Best and Most Popular Musics">
+                <div class="logo bottomtip" title="Kulturmetropolen">
                     <?php if ($logo): ?>
                         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
                             <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />

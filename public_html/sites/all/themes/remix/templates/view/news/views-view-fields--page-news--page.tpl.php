@@ -38,5 +38,5 @@
 		<div class="meta">
 			<span> <i class="icon-time mi"></i><?php print $fields['created']->content; ?> </span> | <span> <a href="#"><i class="icon-comments-alt"></i> <?php print $fields['comment_count']->content; ?></a> </span>
 		</div><!-- meta -->
-		<a href="<?php print $fields['path']->content; ?>" class="sign-btn tbutton small"><span><?php print t('Read More');?></span></a>
+		<a href="<?php print $fields['path']->content; ?>" class="sign-btn tbutton small"><span><?php print t('Læs mere');?></span></a>
 	</div>
