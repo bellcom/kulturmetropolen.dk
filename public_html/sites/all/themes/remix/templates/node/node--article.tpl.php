@@ -130,10 +130,6 @@
             <?php print node_sibling('next', $node, NULL, NULL, NULL, FALSE); ?>
         </div><!-- post links -->
 
-        <div id="fb_comments">
-            <div class="fb-comments" data-href="<?php print 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ?>" data-num-posts="5" data-colorscheme="dark" data-width="100%"></div>
-        </div> 
-        <?php print render($content['comments']); ?>
 
     </div>
 </div>
