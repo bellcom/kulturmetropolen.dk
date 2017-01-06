@@ -86,6 +86,7 @@
         <div class="post row-fluid pic-full clearfix">
 
             <?php print render($content['field_multimedia']); ?>
+            <?php print render($content['field_artikelbillede']); ?>
             <?php if ($title): ?><h3 class="post-title"> <i class="icon-pencil"></i><?php print $title; ?></h3><?php endif; ?>
 
             <?php print render($content['body'][0]['#markup']); ?>
