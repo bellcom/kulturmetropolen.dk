@@ -8,3 +8,5 @@ tmp/
 *.sql
 .idea
 .DS_Store
+/public_html/sites/all/translations
+/public_html/sites/kulturmetropolen.dd
