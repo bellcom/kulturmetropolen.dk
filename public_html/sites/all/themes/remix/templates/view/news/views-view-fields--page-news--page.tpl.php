@@ -29,9 +29,16 @@
 	<div class="span5"><?php print $fields['field_image']->content; ?></div>
 <?php elseif ($row->field_field_multimedia[0]['rendered']['#bundle'] == 'image'):?>
 	<div class="span5"><img src="<?php print image_style_url('mp3_soon',$row->field_field_multimedia[0]['rendered']['#file']->uri) ?> " alt=""></div>
+
+
+<?php elseif ($row->field_field_artikelbillede[0]['rendered']['#bundle'] == 'image'):?>
+	<div class="span5"><img src="<?php print image_style_url('artikelbillede',$row->field_field_artikelbillede[0]['rendered']['#file']->uri) ?> " alt=""></div>
+
+
+
 <?php elseif ($row->field_field_multimedia[0]['rendered']['#bundle'] == 'audio'): ?>
 	<div class="span5"><?php print $fields['field_img']->content; ?><!--<img src="<?php //print $fields['field_img']->content; ?>" alt="" />--></div>
-<?php endif; ?> 
+<?php endif; ?>
 	<div class="span7">
 		<?php print $fields['title']->content; ?>
 		<?php print $fields['body']->content; ?>
