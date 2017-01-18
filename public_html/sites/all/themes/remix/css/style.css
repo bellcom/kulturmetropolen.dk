@@ -8207,3 +8207,7 @@ height: auto;
   }
 }
 ul.facebook-feed { margin-top: 11px;}
+.facebook-feed-picture img {
+  width: 100%;
+  height: auto;
+}
