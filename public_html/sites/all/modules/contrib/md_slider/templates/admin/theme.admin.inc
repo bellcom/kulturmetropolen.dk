@@ -139,8 +139,7 @@ function template_preprocess_admin_slides_render(&$variables) {
 
     foreach ($slides as &$slide) {
         $slide->settings["slide_id"] = $slide->sid;
-        if ($slide->settings['background_image'] != -1) {
-            $background = file_load($slide->settings['background_image']);
+        if ($slide->settings['background_image'] != -1 && ($background = file_load($slide->settings['background_image']))) {
             if ($slider->settings['create_bg_imgstyle'])
                 $slide->background_url = image_style_url('md_slider_' . $slider->slid . '_bg', $background->uri);
             else
@@ -155,5 +154,4 @@ function template_preprocess_admin_slides_render(&$variables) {
       if (empty($slide->background_url) && isset($slide->settings["background_color"]) && $slide->settings["background_color"] != "")
         $slide->background_style[] = "background-color: {$slide->settings["background_color"]}";
     }
-
 }

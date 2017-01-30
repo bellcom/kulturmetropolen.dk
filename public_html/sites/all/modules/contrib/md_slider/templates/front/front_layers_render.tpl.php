@@ -7,7 +7,7 @@
  */
 ?>
 <?php if(!empty($layer->opacity)):?>
-<div  <?php print "style=\"{$layer->opacity}\""?>>
+<div class="md-item-opacity" <?php print "style=\"{$layer->opacity}\""?>>
 <?php endif;?>
   <div class="<?php print $class; ?>" <?php print $data; ?>>
     <?php if ($layer->type == 'text'): ?>
