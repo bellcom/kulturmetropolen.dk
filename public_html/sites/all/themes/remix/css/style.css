@@ -7817,7 +7817,9 @@ height: auto;
   .def-block .content {
     padding: 20px;
   }
-
+  #block-block-16 .content {
+    padding-left: 30px;
+  }
   .table th {
     padding: 16px 5px;
   }
