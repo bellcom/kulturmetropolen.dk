@@ -8221,6 +8221,9 @@ height: auto;
     margin-left: 0 !important;
     padding: 20px !important;
   }
+  .node-type-article .def-block {
+    background-color: transparent !important;
+  }
 }
 ul.facebook-feed { margin-top: 11px;}
 .facebook-feed-picture img {
