@@ -7812,6 +7812,10 @@ height: auto;
 
   .def-block {
     margin-bottom: 30px;
+    padding: 0 !important;
+  }
+  .def-block .content {
+    padding: 20px;
   }
 
   .table th {
