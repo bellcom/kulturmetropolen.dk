@@ -8229,6 +8229,9 @@ height: auto;
   }
   .logo {
     margin-top: 0;
+    margin: 10px auto 10px;
+    width: 60%;
+    float: none;
   }
 }
 ul.facebook-feed { margin-top: 11px;}
