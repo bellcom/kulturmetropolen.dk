@@ -944,7 +944,7 @@ textarea {
 .logo img {
 
 width: 80%!important;
-margin-bottom: -50px!important;
+/* margin-bottom: -50px!important; */
 
 }
 
@@ -7342,7 +7342,7 @@ input[type="submit"] {
     .logo img {
 
         width: 80%!important;
-        margin-bottom: -50px!important;
+        /*margin-bottom: -50px!important; */
         padding: 0;
 
     }
