@@ -7500,8 +7500,9 @@ input[type="submit"] {
   .def-block {
     padding: 20px;
   }
-  .view-id-page_news, .view-display-id-page {
+  .view-page-news {
     border: none;
+    margin-left: 0 !important;
   }
   .social a {
     margin: 0 2px;
