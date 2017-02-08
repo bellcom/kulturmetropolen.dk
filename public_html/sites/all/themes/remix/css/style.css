@@ -7495,8 +7495,14 @@ input[type="submit"] {
 
   .row {
     width: 100%;
+    padding: 0;
   }
-
+  .def-block {
+    padding: 20px;
+  }
+  .view-id-page_news, .view-display-id-page {
+    border: none;
+  }
   .social a {
     margin: 0 2px;
     width: 17px;
