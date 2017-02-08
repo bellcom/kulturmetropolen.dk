@@ -7823,6 +7823,11 @@ height: auto;
   .def-block.view-page-news {
     padding: 20px !important;
   }
+  .logo {
+    float: none;
+    margin: 0 auto;
+    width: auto;
+  }
   .table th {
     padding: 16px 5px;
   }
