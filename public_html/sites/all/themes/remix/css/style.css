@@ -8227,6 +8227,9 @@ height: auto;
   footer .grid_4 {
     width: 100%;
   }
+  .logo {
+    margin-top: 0;
+  }
 }
 ul.facebook-feed { margin-top: 11px;}
 .facebook-feed-picture img {
