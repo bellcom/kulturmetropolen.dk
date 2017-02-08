@@ -7820,6 +7820,9 @@ height: auto;
   #block-block-16 .content {
     padding-left: 30px;
   }
+  .def-block.view-page-news {
+    padding: 20px !important;
+  }
   .table th {
     padding: 16px 5px;
   }
