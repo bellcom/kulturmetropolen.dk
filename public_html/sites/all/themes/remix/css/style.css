@@ -7865,7 +7865,7 @@ height: auto;
   }
 
   .row {
-    width: 290px;
+    width: 100%;
     padding: 0;
   }
 
@@ -8204,6 +8204,12 @@ height: auto;
 
   .event-timer li {
     width: 53px;
+  }
+  .view-page-news {
+    margin-left: 0;
+  }
+  .block-facebook-pull .content {
+    margin: 20px;
   }
 }
 ul.facebook-feed { margin-top: 11px;}
