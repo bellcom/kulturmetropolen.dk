@@ -7825,8 +7825,8 @@ height: auto;
   }
   .logo {
     float: none;
-    margin: 0 auto;
-    width: auto;
+    margin: 10px auto;
+    width: 250px;
   }
   .table th {
     padding: 16px 5px;
