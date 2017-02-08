@@ -8212,7 +8212,14 @@ height: auto;
     margin: 20px;
   }
   .def-block {
-    padding: 20px 0;
+    padding: 20px 0 !important;
+  }
+  #block-system-main .content {
+    padding: 20px;
+  }
+  .view-page-news {
+    margin-left: 0;
+    padding: 20px !important;
   }
 }
 ul.facebook-feed { margin-top: 11px;}
