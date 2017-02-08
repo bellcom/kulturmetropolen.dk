@@ -7498,7 +7498,10 @@ input[type="submit"] {
     padding: 0;
   }
   .def-block {
-    padding: 0;
+    padding: 0 !important;
+  }
+  .def-block .content {
+    padding: 20px;
   }
   .view-page-news {
     border: none;
