@@ -7641,7 +7641,9 @@ height: auto!important;
 
         overflow: hidden;
     }
-
+footer .grid_4 {
+    width: 100%;
+}
 .view-page-news {
   margin-left: 0;
 }
