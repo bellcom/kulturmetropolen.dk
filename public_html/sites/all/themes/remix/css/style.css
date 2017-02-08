@@ -8211,6 +8211,9 @@ height: auto;
   .block-facebook-pull .content {
     margin: 20px;
   }
+  .def-block {
+    padding: 20px 0;
+  }
 }
 ul.facebook-feed { margin-top: 11px;}
 .facebook-feed-picture img {
