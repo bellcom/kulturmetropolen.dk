@@ -8224,6 +8224,9 @@ height: auto;
   .node-type-article .def-block {
     background-color: transparent !important;
   }
+  footer .grid_4 {
+    width: 100%;
+  }
 }
 ul.facebook-feed { margin-top: 11px;}
 .facebook-feed-picture img {
