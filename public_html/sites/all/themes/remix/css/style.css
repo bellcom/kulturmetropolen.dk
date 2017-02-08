@@ -8218,7 +8218,7 @@ height: auto;
     padding: 20px;
   }
   .view-page-news {
-    margin-left: 0;
+    margin-left: 0 !important;
     padding: 20px !important;
   }
 }
