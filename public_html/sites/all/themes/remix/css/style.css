@@ -1861,7 +1861,8 @@ li.track:hover .buy, .playing .buy {
   margin: 0;
   border-bottom: 1px solid  #ee0034;
   display: inline-block;
-    letter-spacing: 0.055em;
+  letter-spacing: 0.055em;
+  font-size: 18px;
 }
 
 .liner {
