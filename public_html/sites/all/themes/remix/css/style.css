@@ -8269,3 +8269,9 @@ ul.facebook-feed { margin-top: 11px;}
     display: none;
   }
 }
+
+.field-name-body.field-type-text-with-summary {
+  color: #A9A9A9;
+  font-size: 12px;
+  font-family: Tahoma,Geneva,sans-serif;
+}
