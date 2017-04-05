@@ -1855,7 +1855,8 @@ li.track:hover .buy, .playing .buy {
   border-radius: 0px!important;
   box-shadow: none!important;
 }
-.def-block h4 {
+.def-block h4,
+.def-block h2 {
   padding: 0 0 10px;
   margin: 0;
   border-bottom: 1px solid  #ee0034;
