@@ -303,7 +303,24 @@ function _facebook_pull_accesstoken($app_id, $app_secret) {
     return FALSE;
   }
 
-  return $token;
+  // As of 2017-03-25 response is a JSON object.
+  // See: https://developers.facebook.com/docs/apps/changelog#v2_3_changes.
+  $token = json_decode($token, TRUE);
+  if (json_last_error() !== JSON_ERROR_NONE) {
+    $message = 'Facebook Graph authentication response invalid.';
+    watchdog('facebook_pull', $message, array(), WATCHDOG_WARNING);
+    return FALSE;
+  }
+
+  if (!isset($token['access_token'])) {
+    $message = 'Facebook Graph failed to provide access token.';
+    watchdog('facebook_pull', $message, array(), WATCHDOG_WARNING);
+    return FALSE;
+  }
+
+  // Turn token array into a query string compatible with previous API v2.2.
+  return http_build_query($token);
+
 }
 
 /**
